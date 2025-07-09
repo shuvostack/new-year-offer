@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* hero section styles */
+.hero-section{
+    background-image: url("../images/Banner\ Image.png");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/Banner\ Image.png");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+
+.bg-1{
+    max-width: 1320px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bg-1-title{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.bg-1-description{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+/* discount section styles */
+
+.discount{
+    max-width: 802.9px;
+    height: 806px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+
+.discount-text{
+    text-align: center;
+    
+}
+
+.discount-text-1{
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+    margin-left: 209px;
+    margin-right: 210px;
+    margin-bottom: 48px;
+}
+
+.discount-text-2{
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.discount-text-3{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
