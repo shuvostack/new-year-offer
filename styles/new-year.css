@@ -5,7 +5,14 @@
 
 /* shared style */
 
+.address-title{
+    color: #FF0000;
+}
 
+.address-text{
+    font-weight: bold;
+    font-size: 32px;
+}
 
 
 /* hero section styles */
@@ -136,4 +143,55 @@
 .bg-2-image{
     width: 319.83px;
     height: 464.66px;
+}
+
+/* address section styles */
+
+.address{
+    background: linear-gradient(to bottom, #FFA3A3 0%, #FFFFFF 100%);
+
+    width: 1320px;
+    height: 482px;
+    margin: 0px auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.address-container{
+    margin: 0px auto;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.address-content{
+    width: 549px;
+    height: 272px;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.address-time{
+    margin-bottom: 48px;
+}
+
+.address-location, .address-date{
+    margin-bottom: 15px;
+}
+
+
+.address-button{
+    background-color: #FF0000;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 110px;
+    cursor: pointer;
 }
